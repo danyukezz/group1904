@@ -5,5 +5,5 @@ def kilometers_to_miles(kilometers: float) -> float:
     return miles
 
 def get_unique_letters(data) -> tuple:
-    unique_elements = sorted(set(data))
+    unique_elements = sorted(set(data), key=int)
     return tuple(unique_elements)

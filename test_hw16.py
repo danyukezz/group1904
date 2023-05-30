@@ -1,7 +1,7 @@
 import pytest
 
 
-from hw              16 import kilometers_to_miles, get_unique_letters
+from hw16 import kilometers_to_miles, get_unique_letters
 
 
 def test_miles_to_kilometers_positive():
@@ -44,5 +44,3 @@ def test_get_unique_sorted_elements_dict():
 
 def test_get_unique_sorted_elements_empty():
     assert get_unique_letters([]) == ()
-
-
